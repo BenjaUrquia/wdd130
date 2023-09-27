@@ -68,9 +68,9 @@ footer{
 
 aside h2{
     position: absolute;
-    top: 715px;
-    left: 125px;
-    color: aliceblue;
+    top: 22px;
+    left: 95px;
+    color: rgb(255, 255, 255);
 }
 
 /* Class Selectors */
