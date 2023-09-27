@@ -37,6 +37,7 @@ main{
 }
 
 aside{
+    position: relative;
     width: 20rem;
     text-align: center;
 }
@@ -65,7 +66,7 @@ footer{
     text-align: center;
 }
 
-aside > h2{
+aside h2{
     position: absolute;
     top: 715px;
     left: 125px;
