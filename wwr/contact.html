@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="Contact Argentina Rafting Expeditions for inquiries and feedback.">
+    <meta name="author" content="Benjamin Urquia">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Rafting Site Logo">
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" class="current">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="images/contact-hero.jpg" alt="Contact Us Image">
+            <h1>Contact Us</h1>
+        </div>
+
+        <section>
+            <h2>Company Information</h2>
+            <address>
+                <p>Adress: Amigorena 86</p>
+                <p>City: Lujan de Cuyo, Medoza</p>
+            </address>
+            <p>Phone: +54 (0341) 123-4567</p>
+            <p>Email: info@argentinarafting.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427847.03186157!2d-72.48607637113454!3d-32.96402671003345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091761fd9a85%3A0x4b0c4c615db2f661!2sArgentina%20Rafting%20Expediciones%20(Oficina%20%2F%20Reservas)!5e0!3m2!1ses-419!2sar!4v1697312761376!5m2!1ses-419!2sar"width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section>
+            <h2>Our Team</h2>
+            <div class="team-member">
+                <img src="images/team-member-1.webp" alt="Team Member 1">
+                <p>John Doe</p>
+                <p>Rafting Guide</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team-member-2.webp" alt="Team Member 2">
+                <p>Jane Smith</p>
+                <p>Rafting Instructor</p>
+            </div>
+            <div class="team-member">
+                <img src="images/team-member-3.webp" alt="Team Member 3">
+                <p>Mike Johnson</p>
+                <p>Adventure Specialist</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label>Message Purpose:</label>
+                <div class="radio-group">
+                    <label for="general">General Inquiry
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required></label>
+                       
+                    <label for="reservation">Reservation Question
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question" required></label>
+                    
+                    <label for="suggestion">Website Suggestion
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" required></label>
+                    
+                </div>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+
+                <label for="subscribe">Please subscribe me to the monthly newsletter
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes"></label>
+                
+
+                <button type="submit">Submit Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 - Argentina Rafting Expeditions - Benjamin Urquia</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
