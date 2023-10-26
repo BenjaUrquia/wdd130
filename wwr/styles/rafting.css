@@ -235,3 +235,144 @@ button[type="submit"]:hover {
     transform: scale(1.05);
     transition: background-color 0.3s, transform 0.3s;
 }
+
+.cta {
+    background-color: #70baeb;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    flex: 1;
+}
+
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    flex: calc(50% - 10px); 
+    margin: 10px;
+    text-align: center;
+}
+
+.grid-content {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border: 1px solid #ddd; 
+}
+
+.styled-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--secondary-color); 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.styled-button:hover {
+    background-color: var(--accent1-color);
+    transform: scale(1.05);
+}
+
+.trip-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip {
+    flex: 0 0 30%; 
+    text-align: center;
+    margin: 10px;
+}
+
+.trip-image {
+    width: 50%; 
+    max-height: 200px; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+.trip-image img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.trip h3 {
+    margin-top: 10px;
+}
+
+.trip p {
+    margin-top: 5px;
+}
+
+.trip-table {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: var(--primary-color); 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.trip-description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.trip {
+    flex: 0 0 30%; 
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.trip-image {
+    width: 100%;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.trip-image img {
+    width: 100%;
+    height: auto;
+}
+
+.trip h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.trip p {
+    margin-top: 5px;
+}

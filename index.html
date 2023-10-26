@@ -1,45 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Benjamin Urquia | WDD 130</title>
-        <link rel="stylesheet" href="styles/styles.css">
-        <meta name="description" content="Benjamin urquia's page for the course WDD130, the purpose of the page is to learn html and css.">
+        <title>Trips - Argentina Rafting Expeditions</title>
+        <link rel="stylesheet" href="wwr\styles\rafting.css">
+        <meta name="description" content="Trips with Argentina Rafting Expeditions.">
         <meta name="author" content="Benjamin Urquia">
     </head>
-
     <body>
         <header>
+            <img src="wwr\images\logo.jpg" alt="Rafting Site Logo">
             <nav>
-                <a href="#">HOME</a>
-                <a href="wwr/">White Water Rafting Website</a>
-                <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-                <a href="https://www.linkedin.com/in/benjam%C3%ADn-urquia-993473243/"> Linkedin Profile</a>
-                <a href="https://www.facebook.com/benjaurquia34/?locale=es_LA"> Facebook Profile</a>
+                <a href="../index.html">Home</a>
+                <a href="wwr\about.html">About Us</a>
+                <a href="wwr\trips.html">Trips</a>
+                <a href="wwr\contact.html" class="current">Contact Us</a>
             </nav>
         </header>
-        <div class="grid">
-            <main>
-                <h1>BENJAMIN URQUIA | WDD 130</h1>
-                <img src="images/profile.jpg" alt="BENJAMIN URQUIA" width="200">
-                <p>I am from Rosario, Argentina. I am 23 years old and I exited to learn! I am studying at BYU which allows me to accommodate my study and work times at my convenience. I live in the city of Rosario with my wife Brenda, we got married in January 2022 and we are very happy with our cat Jake. I love soccer, computing and electronics, I spend the day with my family and we watch movies together. In my free time I meet with my friends. My parents are church members and have been since before they were married so I was born knowing the gospel and living the teachings of Jesus Christ.</p>
-                <ul class="box">
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/buenos-aires-argentina-temple?lang=eng" target="_blank">Argentina Buenos Aires Temple</a></li>
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/mendoza-argentina-temple?lang=eng" target="_blank">Argentina Mendoza Temple</a></li>
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/salta-argentina-temple?lang=eng" target="_blank">Argentina Salta Temple</a></li>
-                </ul>
-            </main>
-            <aside class="box">
-                <h2>Argentina</h2>
-                <img src="https://cadenaser.com/resizer/9UOTKKBXiRNjikaOyhCV-aLQpuk=/768x576/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/TOLWBLP2DRFWZPVWKRWIQ4WH3I.jpg" alt="Messi rise the world cup">
-                <p>Argentina is one of the largest countries in the Americas, located in the south of the continent with Chile, Bolivia, Paraguay, Brazil and Uruguay as bordering countries. Known worldwide for its soccer but also for its beautiful landscapes such as one of the wonders of the world, the Iguazu Falls, or its different mountains and rivers.</p>
-            </aside>
-        </div>
+
+        <main>
+            <section class="hero">
+                <img src="wwr\images\path-to-hero-image.jpg" alt="Rafting Adventure" />
+                <h1>Welcome to Argentina Rafting Expeditions</h1>
+            </section>
+        
+            <section class="newsletter">
+                <h2>Subscribe to our Newsletter</h2>
+                <p>Stay up to date with the latest news and offers!</p>
+                <form action="subscribe.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+        
+            <section class="cta">
+                <h2>Ready for an Adventure?</h2>
+                <p>Book your rafting trip today and experience the thrill!</p>
+                <a href="wwr\trips.html" class="styled-button">Explore Trips</a>
+            </section>
+        
+            <section class="grid">
+                <div class="grid-item">
+                    <div class="grid-content">
+                        <img src="wwr\images\happy-client-1.jpg" alt="Rafting Excursions" />
+                        <h3>Exciting Excursions</h3>
+                        <p>Join us for thrilling white water rafting adventures on the most scenic rivers in the region.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="grid-content">
+                        <img src="wwr\images\team-member-3.webp" alt="Experienced Guides" />
+                        <h3>Experienced Guides</h3>
+                        <p>Our professional guides ensure your safety while delivering unforgettable experiences.</p>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        
+
         <footer>
-            <p>©2023 ⚽ Benjamin Urquia ⚽ Rosario, Santa Fe, Argentina</p>
+            <p>© 2023 - Argentina Rafting Expeditions - Benjamin Urquia</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                    <img src="wwr\images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="wwr\images\twitter.webp" alt="Twitter">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="wwr\images/instagram.png" alt="Instagram">
+                </a>
+            </nav>
         </footer>
     </body>
-    <!-- Last changes 09-27-23 -->
 </html>
